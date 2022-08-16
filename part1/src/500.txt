@@ -1,0 +1,6 @@
+cats
+friends
+family
+baketball
+football
+university

@@ -1,0 +1,30 @@
+package com.aueb.whatsapp;
+
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+public class ChatViewHolder extends RecyclerView.ViewHolder {
+
+    LinearLayout leftMsgLayout;
+
+    LinearLayout rightMsgLayout;
+
+    TextView leftMsgTextView;
+
+    TextView rightMsgTextView;
+
+    public ChatViewHolder(View itemView) {
+        super(itemView);
+
+        if(itemView!=null) {
+            leftMsgLayout = itemView.findViewById(R.id.chat_left_msg_layout);
+            rightMsgLayout = itemView.findViewById(R.id.chat_right_msg_layout);
+            leftMsgTextView = itemView.findViewById(R.id.chat_left_msg_text_view);
+            rightMsgTextView = itemView.findViewById(R.id.chat_right_msg_text_view);
+        }
+    }
+
+}

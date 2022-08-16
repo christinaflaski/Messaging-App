@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gc_names">
+        <item >cats</item>
+        <item >dogs</item>
+        <item >memes</item>
+        <item >university</item>
+        <item >friends</item>
+        <item >family</item>
+        <item >gaming</item>
+        <item >class</item>
+        <item >tiktok</item>
+        <item >football</item>
+        <item >basketball</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+class
+cats
+friends
+football
+tiktok
+university
